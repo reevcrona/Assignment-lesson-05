@@ -17,10 +17,17 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    flex-wrap: wrap;
+    
 }
-
+.size-container-square{
+    width: 1152px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 20px;
+}
 .square-container{
     background-color: #F48C06;
     width: 468px;
@@ -29,6 +36,7 @@ body{
     display: flex;
     gap: 20px;
     padding: 20px;
+    
 }
 .square-container:nth-child(1){
     justify-content: flex-start;
@@ -78,11 +86,14 @@ body{
     max-width: 156px;
     border-radius: 4px;
     font-family: "Roboto", sans-serif;
-    color: #FFFFFF;
+    color: #FFFFFF; 
 }
 
 /*Square*/
 
+
+
+ /*Circle*/
 .section-circle{
     height: 100vh;
     background-color: #FAA307;
@@ -94,13 +105,20 @@ body{
     align-content: center;
 }
 
+.size-container-circle{
+    width: 900px;
+    height: 470px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: baseline;
+    gap: 20px;
+}
 .circle-container{
     background-color: #03071E;
     width: 273px;
     height: 220px;
     display: flex;
-    
-    
 }
 
 .circle-container:nth-child(1){
@@ -144,12 +162,8 @@ body{
     margin: 15px;
 }
 
-.size-container{
-    width: 900px;
-    height: 470px;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    align-content: baseline;
-    gap: 20px;
-}
+/*Circle*/
+
+
+
+
