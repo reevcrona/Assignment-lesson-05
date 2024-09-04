@@ -19,7 +19,7 @@ body{
     display: flex;
     gap: 20px;
     padding: 20px;
-    color: white;
+    
    
 }
 .container:nth-child(1){
@@ -45,6 +45,11 @@ body{
     justify-content: space-evenly;
     align-items: stretch;
 }
+.container:nth-child(5) .container__square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .container:nth-child(5) div:nth-child(2){
     align-self: center;
 }
@@ -63,6 +68,8 @@ body{
     min-width: 78px;
     min-height: 78px;
     border-radius: 4px;
-    text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: #FFFFFF;
+   
 }
 
