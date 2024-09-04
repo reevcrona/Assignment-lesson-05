@@ -1,7 +1,17 @@
 body{
     margin: 0;
-    padding:90px 98px;
+    padding:0;
     box-sizing: border-box;
+    height: 100vh;
+    
+}
+
+
+/*Square*/
+
+
+.section-square{
+    padding:20px;
     height: 100vh;
     background-color: #370617;
     display: flex;
@@ -11,7 +21,7 @@ body{
     flex-wrap: wrap;
 }
 
-.container{
+.square-container{
     background-color: #F48C06;
     width: 468px;
     height: 160px;
@@ -19,47 +29,45 @@ body{
     display: flex;
     gap: 20px;
     padding: 20px;
-    
-   
 }
-.container:nth-child(1){
+.square-container:nth-child(1){
     justify-content: flex-start;
     align-items: flex-end;
 }
-.container:nth-child(2){
+.square-container:nth-child(2){
     justify-content: center;
     align-items: stretch;
 }
-.container:nth-child(3){
+.square-container:nth-child(3){
     justify-content: flex-end;
     align-items: center;
 }
-.container:nth-child(4){
+.square-container:nth-child(4){
     justify-content: space-between;
     align-items: flex-start;
 }
-.container:nth-child(4) :last-child {
+.square-container:nth-child(4) :last-child {
     align-self: flex-end;
 }
-.container:nth-child(5){
+.square-container:nth-child(5){
     justify-content: space-evenly;
     align-items: stretch;
 }
-.container:nth-child(5) .container__square{
+.square-container:nth-child(5) .container__square{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.container:nth-child(5) div:nth-child(2){
+.square-container:nth-child(5) div:nth-child(2){
     align-self: center;
 }
 
-.container:nth-child(6){
+.square-container:nth-child(6){
     justify-content: center;
     align-items: center;
 }
 
-.container:nth-child(6) div:nth-child(2){
+.square-container:nth-child(6) div:nth-child(2){
     flex-grow: 2;
 }
 
@@ -71,6 +79,67 @@ body{
     border-radius: 4px;
     font-family: "Roboto", sans-serif;
     color: #FFFFFF;
-   
 }
 
+/*Square*/
+
+.section-circle{
+    height: 100vh;
+    background-color: #FAA307;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.circle-container{
+    background-color: #03071E;
+    width: 273px;
+    height: 220px;
+    display: flex;
+    
+    
+}
+
+.circle-container:nth-child(1){
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.circle-container:nth-child(2){
+    background-color: #6A040F;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap-reverse;
+    align-content: flex-start;
+}
+
+.circle-container:nth-child(3){
+    justify-content: space-around;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+.circle-container:nth-child(4){
+    background-color: #6A040F;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.circle-container:nth-child(5){
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+
+.container__circle{
+    background-color: #748CAB;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 15px;
+}
