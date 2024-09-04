@@ -143,3 +143,13 @@ body{
     border-radius: 50%;
     margin: 15px;
 }
+
+.size-container{
+    width: 900px;
+    height: 470px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: baseline;
+    gap: 20px;
+}
